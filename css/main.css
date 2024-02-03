@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #E6E6E6;
+}
+.container{
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #505050;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+}
+
+.links li{
+    padding: 12px;
+    font-size: 25px;
+}
+.links a{
+    list-style: none;
+    color: #CFCFCF;
+}
+
+.links a:hover{
+    list-style: none;
+    color: #FFC000;
+}
+.logo{
+    font-size: 35px;
+    color: #FFC000;
+    margin-left: 10px;
+}
+.lap{
+
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
+.lap h1{
+    font-size: 45px;
+    color: #FFC000;
+    font-weight: bold;
+}
+.txt{
+    background-image: url("../images/circle.svg");
+    background-size: cover; 
+}
+.txt p{
+    font-size: 25px;
+}
+
+img{
+    width: 600px;
+    height: 590px;
+}
+
+/*protoflio section*/
+.myimg{
+    width: 300px;
+    height: 290px;
+    border: 2px dashed beige;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    font-size: 60px;
+    color: #ff9f1c;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.protoflio{
+    background-color: #414833;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.projects-title{
+    color: beige;
+    padding-bottom: 15px;
+}
+.projects .card{
+    border: 2px dashed #ff9f1c;
+}
+.projects .card img{
+    width: 150px;
+    height: 150px;
+   
+}
+
+.projects .card h4{
+    color: beige;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.projects .card p{
+    color: beige;
+    text-align: center;
+    padding: 0 5px 10px 5px;
+}
+.table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    
+}
+
+.table  th{
+    background-color: #ffe5d9;
+    font-size: 25px;
+    color: #2b2d42;
+    padding: 12px;
+    border: 3px dashed #c6c9e9;
+    
+}
+
+.table tr ,td {
+    padding: 10px;
+    text-align: center;
+    line-height: 25px;
+    border: 3px solid #c6c9e9;
+    background-color: white;
+}
